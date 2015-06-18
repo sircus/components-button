@@ -6,6 +6,7 @@
   --Button-bgColor: transparent;
   --Button-borderColor: var(--g-mono-40);
   --Button-borderSize: var(--g-controlsBorderSize);
+  --Button-borderSize2x: calc(var(--Button-borderSize) * 2);
   --Button-height: var(--g-controlsHeight);
 
   --Button-primary-color: var(--g-primary);
@@ -19,7 +20,7 @@
 
 .Button {
   font-size: var(--Button-fontSize);
-  line-height: calc(var(--Button-height) - calc(var(--Button-borderSize) * 2));
+  line-height: calc(var(--Button-height) - var(--Button-borderSize2x));
   display: inline-block;
   box-sizing: border-box;
   height: var(--Button-height);

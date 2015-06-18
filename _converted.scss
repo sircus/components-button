@@ -8,6 +8,7 @@ $Button-color: $g-mono-40 !default;
 $Button-bgColor: transparent !default;
 $Button-borderColor: $g-mono-40 !default;
 $Button-borderSize: $g-controlsBorderSize !default;
+$Button-borderSize2x: ($Button-borderSize * 2) !default;
 $Button-height: $g-controlsHeight !default;
 $Button-primary-color: $g-primary !default;
 $Button-primary-bgColor: transparent !default;
@@ -21,7 +22,7 @@ $Button-primary-borderColor: $g-primary-dark !default;
 
 .Button {
   font-size: $Button-fontSize;
-  line-height: ($Button-height - calc($Button-borderSize * 2));
+  line-height: ($Button-height - $Button-borderSize2x);
   display: inline-block;
   box-sizing: border-box;
   height: $Button-height;
