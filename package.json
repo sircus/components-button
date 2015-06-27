@@ -1,10 +1,10 @@
 {
   "name": "sircus-components-button",
-  "description": "css Button component module for Sircus.",
-  "version": "0.0.1",
+  "description": "Base module for the Sircus Button component.",
+  "version": "0.1.0",
   "homepage": "http://sircus.github.io",
   "keywords": [
-    "scalabe",
+    "scalable",
     "design",
     "css",
     "cssnext",
