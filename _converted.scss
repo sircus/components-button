@@ -1,17 +1,17 @@
 
 // Converted Variables
 
-$Button-spaceH: $g-controlsSpaceH !default;
+$Button-spaceH: $g-controls-spaceH !default;
 $Button-fontSize: $g-fontSize !default;
 $Button-borderRadius: $g-borderRadius !default;
-$Button-color: $g-mono-40 !default;
-$Button-bgColor: transparent !default;
-$Button-borderColor: $g-mono-40 !default;
-$Button-borderSize: $g-controlsBorderSize !default;
+$Button-color: $g-gray-40 !default;
+$Button-fill: transparent !default;
+$Button-borderColor: $g-gray-40 !default;
+$Button-borderSize: $g-controls-borderSize !default;
 $Button-borderSize2x: ($Button-borderSize * 2) !default;
-$Button-height: $g-controlsHeight !default;
+$Button-height: $g-controls-height !default;
 $Button-primary-color: $g-primary !default;
-$Button-primary-bgColor: transparent !default;
+$Button-primary-fill: transparent !default;
 $Button-primary-borderColor: $g-primary-dark !default;
 
 
@@ -36,7 +36,7 @@ $Button-primary-borderColor: $g-primary-dark !default;
   border: $Button-borderSize solid $Button-borderColor;
   border-radius: $Button-borderRadius;
   outline: none;
-  background-color: $Button-bgColor;
+  background-color: $Button-fill;
   background-image: none;
   box-shadow: none;
   appearance: none;
@@ -63,7 +63,7 @@ $Button-primary-borderColor: $g-primary-dark !default;
 
 
 .Button--primary {
-  background-color:$Button-primary-bgColor;
+  background-color:$Button-primary-fill;
   border-color: $Button-primary-borderColor;
   color:$Button-primary-color;
 }

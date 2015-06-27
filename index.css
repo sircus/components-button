@@ -1,16 +1,16 @@
 :root {
-  --Button-spaceH: var(--g-controlsSpaceH);
+  --Button-spaceH: var(--g-controls-spaceH);
   --Button-fontSize: var(--g-fontSize);
   --Button-borderRadius: var(--g-borderRadius);
-  --Button-color: var(--g-mono-40);
-  --Button-bgColor: transparent;
-  --Button-borderColor: var(--g-mono-40);
-  --Button-borderSize: var(--g-controlsBorderSize);
+  --Button-color: var(--g-gray-80);
+  --Button-fill: transparent;
+  --Button-borderColor: var(--g-gray-40);
+  --Button-borderSize: var(--g-controls-borderSize);
   --Button-borderSize2x: calc(var(--Button-borderSize) * 2);
-  --Button-height: var(--g-controlsHeight);
+  --Button-height: var(--g-controls-height);
 
   --Button-primary-color: var(--g-primary);
-  --Button-primary-bgColor: transparent;
+  --Button-primary-fill: transparent;
   --Button-primary-borderColor: var(--g-primary-dark);
 }
 
@@ -35,7 +35,7 @@
   border: var(--Button-borderSize) solid var(--Button-borderColor);
   border-radius: var(--Button-borderRadius);
   outline: none;
-  background-color: var(--Button-bgColor);
+  background-color: var(--Button-fill);
   background-image: none;
   box-shadow: none;
   appearance: none;
@@ -62,7 +62,7 @@
 
 
 .Button--primary {
-  background-color:var(--Button-primary-bgColor);
+  background-color:var(--Button-primary-fill);
   border-color: var(--Button-primary-borderColor);
   color:var(--Button-primary-color);
 }
