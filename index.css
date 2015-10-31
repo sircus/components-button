@@ -14,10 +14,8 @@
   --Button-primary-borderColor: var(--g-primary-dark);
 }
 
-
 /*　sircus-components-button
 ======================================== */
-
 .Button {
   font-size: var(--Button-fontSize);
   line-height: calc(var(--Button-height) - var(--Button-borderSize2x));
@@ -41,14 +39,12 @@
   appearance: none;
 }
 
-
 .Button.is-disabled,
 .Button[disabled] {
   cursor: not-allowed;
   pointer-events: none;
   opacity: .65;
 }
-
 
 .Button:hover,
 .Button:focus,
@@ -60,17 +56,17 @@
   background-color: var(--Button-borderColor);
 }
 
-
 .Button--primary {
-  background-color:var(--Button-primary-fill);
+  background-color: var(--Button-primary-fill);
   border-color: var(--Button-primary-borderColor);
-  color:var(--Button-primary-color);
+  color: var(--Button-primary-color);
 }
+
 .Button--primary:hover,
 .Button--primary:focus,
 .Button--primary:active,
-.Button--primary.is-active{
-  background-color:var(--Button-primary-color);
-  color:#fff;
+.Button--primary.is-active {
+  background-color: var(--Button-primary-color);
+  color: #fff;
   border-color: var(--Button-primary-borderColor);
 }
