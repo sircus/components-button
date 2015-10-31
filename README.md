@@ -2,17 +2,12 @@
 
 [![npm version](https://img.shields.io/npm/v/sircus-components-button.svg?style=flat)](https://www.npmjs.com/package/sircus-components-button)
 
-
-## Dependencies
-- [sircus-global-property](https://github.com/sircus/global-property)
-
-
-## Installation
+## Install
 
 > npm:
 
 ```bash
-$ npm install sircus-components-button sircus-global-property
+$ npm install sircus-components-button sircus-variables
 ```
 
 ## Usage
@@ -22,14 +17,14 @@ $ npm install sircus-components-button sircus-global-property
 input.css
 ```css
 @import "sircus-components-button";
-@import "sircus-global-property";
+@import "sircus-variables";
 ```
 
 > sass:
 
 input.scss
 ```scss
-@import "./node_modules/sircus-global-property/converted";
+@import "./node_modules/sircus-variables/converted";
 @import "./node_modules/sircus-components-button/converted";
 ```
 
