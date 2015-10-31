@@ -4,9 +4,9 @@
 $Button-spaceH: $g-controls-spaceH !default;
 $Button-fontSize: $g-fontSize !default;
 $Button-borderRadius: $g-borderRadius !default;
-$Button-color: $g-gray-40 !default;
+$Button-color: #000 !default;
 $Button-fill: transparent !default;
-$Button-borderColor: $g-gray-40 !default;
+$Button-borderColor: #000 !default;
 $Button-borderSize: $g-controls-borderSize !default;
 $Button-borderSize2x: ($Button-borderSize * 2) !default;
 $Button-height: $g-controls-height !default;
@@ -43,9 +43,9 @@ $Button-primary-borderColor: $g-primary-dark !default;
 
 .Button.is-disabled,
 .Button[disabled] {
-  cursor: not-allowed;
   pointer-events: none;
-  opacity: .65;
+  cursor: not-allowed;
+  opacity: .5;
 }
 
 .Button:hover,
